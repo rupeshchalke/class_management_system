@@ -1,6 +1,8 @@
 module.exports=function(app){
 
-    require('./student_api')(app);
+    require('./students_api')(app);
+    require('./staff_api')(app);
+
 
 
 
